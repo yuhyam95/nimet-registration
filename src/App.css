@@ -1,0 +1,124 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #006B3E;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #006B3E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.register-button:hover {
+  background-color: #004494;
+}
+
+.qr-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-buttons {
+  margin-bottom: 20px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #006B3E;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.home-button:hover {
+  background-color: #004494;
+}
+
+.qr-title {
+  font-size: 30px;
+  font-style: italic;
+  color: #006B3E;
+  margin: 10px 0;
+}
+
+.qr-code {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.qr-header {
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.thank-you-message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
